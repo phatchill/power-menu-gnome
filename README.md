@@ -37,7 +37,7 @@ make pack
 gnome-extensions install --force power-menu@local.shell-extension.zip
 ```
 ## Screenshot
-![Demo Run](./images/Screenshot.png)
+![Demo Run](./Screenshot.png)
 ## Settings
 
 Open **Extension Manager** and click the gear next to Power Menu, or run:
