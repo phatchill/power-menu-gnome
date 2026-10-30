@@ -19,7 +19,7 @@ lock, switch user, log out, sleep, hibernate, restart or power off.
 ## Install
 
 ```bash
-git clone https://github.com/<your-user>/power-menu-gnome.git
+git clone https://github.com/phatchill/power-menu-gnome.git
 cd power-menu-gnome
 make install
 ```
