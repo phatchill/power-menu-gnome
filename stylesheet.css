@@ -1,0 +1,114 @@
+.power-menu-dialog {
+    padding: 24px 28px;
+}
+
+.power-menu-row {
+    spacing: 14px;
+}
+
+.power-menu-button {
+    padding: 18px 0 0 0;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 2px solid transparent;
+}
+
+.power-menu-button:hover,
+.power-menu-button:focus {
+    background-color: rgba(255, 255, 255, 0.16);
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+.power-menu-icon {
+    icon-size: 40px;
+    margin-bottom: 8px;
+}
+
+.power-menu-label {
+    font-weight: bold;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.power-menu-key {
+    font-size: 9pt;
+    opacity: 140;
+    margin: 4px 0 6px 0;
+    padding: 1px 0;
+    min-width: 30px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+/* The side margins keep the bar inside the button's rounded corners.
+   They must match BAR_INSET_CARD / BAR_INSET_LIST in extension.js. */
+.power-menu-progress {
+    background-color: #e5484d;
+    border-radius: 2px;
+    margin: 0 16px 10px 16px;
+}
+
+.power-menu-progress-list {
+    margin: 0 18px 8px 18px;
+}
+
+/* ---- Danger styling (Restart / Power Off in the split layout and elsewhere) ---- */
+.power-menu-danger {
+    background-color: rgba(229, 72, 77, 0.14);
+}
+
+.power-menu-danger:hover,
+.power-menu-danger:focus {
+    background-color: rgba(229, 72, 77, 0.26);
+    border-color: rgba(229, 72, 77, 0.6);
+}
+
+/* ---- Grid layout ---- */
+.power-menu-grid {
+    spacing: 14px;
+}
+
+/* ---- Split layout ---- */
+.power-menu-split {
+    spacing: 18px;
+}
+
+.power-menu-divider {
+    background-color: rgba(255, 255, 255, 0.18);
+    margin: 8px 0;
+}
+
+/* ---- List layout ---- */
+.power-menu-list {
+    spacing: 10px;
+}
+
+.power-menu-list-button {
+    padding: 0;
+    border-radius: 14px;
+}
+
+.power-menu-list-content {
+    padding: 14px 18px 6px 18px;
+    spacing: 14px;
+}
+
+.power-menu-list-icon {
+    icon-size: 24px;
+}
+
+.power-menu-list-label {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.power-menu-list-key {
+    margin: 0;
+}
+
+.power-menu-hint {
+    margin-top: 18px;
+    font-size: 9pt;
+    opacity: 150;
+}

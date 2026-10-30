@@ -1,0 +1,8 @@
+{
+  "name": "Power Menu",
+  "description": "Win+X power menu with single-key shortcuts, arrow-key navigation, hold or countdown confirmation, a dim/blur backdrop, optional Hibernate and Switch User, and configurable buttons and keys.",
+  "uuid": "power-menu@local",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.power-menu",
+  "version": 6
+}

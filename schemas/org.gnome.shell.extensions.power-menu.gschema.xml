@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.power-menu" path="/org/gnome/shell/extensions/power-menu/">
+    <key name="toggle-menu" type="as">
+      <default><![CDATA[['<Super>x']]]></default>
+      <summary>Open the power menu</summary>
+      <description>Keyboard shortcut that opens the power menu.</description>
+    </key>
+    <key name="layout" type="s">
+      <choices>
+        <choice value="row"/>
+        <choice value="list"/>
+        <choice value="grid"/>
+        <choice value="split"/>
+      </choices>
+      <default>'row'</default>
+      <summary>Menu layout</summary>
+      <description>How the power menu buttons are arranged: row, list, grid or split.</description>
+    </key>
+    <key name="backdrop" type="s">
+      <choices>
+        <choice value="none"/>
+        <choice value="dim"/>
+        <choice value="blur"/>
+        <choice value="blur-dim"/>
+        <choice value="accent"/>
+      </choices>
+      <default>'none'</default>
+      <summary>Background behind the menu</summary>
+      <description>Effect applied behind the menu: none, dim, blur, blur and dim, or accent tint.</description>
+    </key>
+    <key name="backdrop-strength" type="u">
+      <range min="0" max="100"/>
+      <default>60</default>
+      <summary>Background effect strength</summary>
+      <description>How strong the dim, blur or tint is, from 0 to 100 percent.</description>
+    </key>
+    <key name="confirm-mode" type="s">
+      <choices>
+        <choice value="hold"/>
+        <choice value="countdown"/>
+      </choices>
+      <default>'hold'</default>
+      <summary>How actions are confirmed</summary>
+      <description>Hold the key to confirm, or press it once to start a cancelable countdown.</description>
+    </key>
+    <key name="countdown-secs" type="u">
+      <range min="1" max="30"/>
+      <default>5</default>
+      <summary>Countdown length in seconds</summary>
+      <description>Length of the countdown used when the confirmation mode is countdown.</description>
+    </key>
+    <key name="hold-ms" type="u">
+      <range min="0" max="5000"/>
+      <default>700</default>
+      <summary>Hold time in milliseconds</summary>
+      <description>How long a key must be held to confirm an action. 0 runs the action instantly.</description>
+    </key>
+
+    <key name="show-lock" type="b">
+      <default>true</default>
+      <summary>Show Lock</summary>
+      <description>Show the Lock button in the menu.</description>
+    </key>
+    <key name="key-lock" type="s">
+      <default>'L'</default>
+      <summary>Lock key</summary>
+      <description>Single letter or digit that triggers Lock.</description>
+    </key>
+
+    <key name="show-switch" type="b">
+      <default>true</default>
+      <summary>Show Switch User</summary>
+      <description>Show the Switch User button in the menu.</description>
+    </key>
+    <key name="key-switch" type="s">
+      <default>'U'</default>
+      <summary>Switch User key</summary>
+      <description>Single letter or digit that triggers Switch User.</description>
+    </key>
+
+    <key name="show-logout" type="b">
+      <default>true</default>
+      <summary>Show Log Out</summary>
+      <description>Show the Log Out button in the menu.</description>
+    </key>
+    <key name="key-logout" type="s">
+      <default>'O'</default>
+      <summary>Log Out key</summary>
+      <description>Single letter or digit that triggers Log Out.</description>
+    </key>
+
+    <key name="show-sleep" type="b">
+      <default>true</default>
+      <summary>Show Sleep</summary>
+      <description>Show the Sleep button in the menu.</description>
+    </key>
+    <key name="key-sleep" type="s">
+      <default>'S'</default>
+      <summary>Sleep key</summary>
+      <description>Single letter or digit that triggers Sleep.</description>
+    </key>
+
+    <key name="show-hibernate" type="b">
+      <default>true</default>
+      <summary>Show Hibernate</summary>
+      <description>Show the Hibernate button when the system supports hibernation.</description>
+    </key>
+    <key name="key-hibernate" type="s">
+      <default>'H'</default>
+      <summary>Hibernate key</summary>
+      <description>Single letter or digit that triggers Hibernate.</description>
+    </key>
+
+    <key name="show-restart" type="b">
+      <default>true</default>
+      <summary>Show Restart</summary>
+      <description>Show the Restart button in the menu.</description>
+    </key>
+    <key name="key-restart" type="s">
+      <default>'R'</default>
+      <summary>Restart key</summary>
+      <description>Single letter or digit that triggers Restart.</description>
+    </key>
+
+    <key name="show-poweroff" type="b">
+      <default>true</default>
+      <summary>Show Power Off</summary>
+      <description>Show the Power Off button in the menu.</description>
+    </key>
+    <key name="key-poweroff" type="s">
+      <default>'P'</default>
+      <summary>Power Off key</summary>
+      <description>Single letter or digit that triggers Power Off.</description>
+    </key>
+  </schema>
+</schemalist>
